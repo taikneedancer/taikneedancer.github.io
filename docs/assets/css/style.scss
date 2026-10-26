@@ -1,5 +1,9 @@
+---
+---
 @import "jekyll-theme-minimal";
 
-.inner {
-  max-width: 200%;
+/* Widen the base layout container */
+#wrapper, .wrapper {
+  max-width: 75% !important;
+  width: 75% !important;
 }
