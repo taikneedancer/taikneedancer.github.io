@@ -7,3 +7,9 @@
   max-width: 75% !important;
   width: 75% !important;
 }
+
+/* Ensure the content section stretches to fill the new width */
+section {
+  width: calc(100% - 300px) !important; /* Adjusts for the fixed sidebar */
+  max-width: 100% !important;
+}
